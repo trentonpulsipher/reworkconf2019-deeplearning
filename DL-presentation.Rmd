@@ -1,0 +1,35 @@
+---
+title: "AI - Deep Learning Conference"
+author: "Trenton Pulsipher"
+date: "5/24/2019"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## attention grabber
+
+## what do you know of deep learning?
+
+## define AI, ML, DL, NN
+
+## Speakers
+
+- Salesforce
+- Twitter
+- Change Healthcare
+- ...
+
+## Topics
+
+- AI Ethics
+- Model Governance
+- Embedding
+- Speech to Text (language agnostic)
+- Object Recognition (eye tracking)
+- Attention Mapping (Adobe, focus vs periphery)
+
+## Embedding
+
