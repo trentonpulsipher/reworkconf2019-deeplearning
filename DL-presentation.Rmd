@@ -11,6 +11,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## attention grabber
 
+maybe a comic?
+
 ## what do you know of deep learning?
 
 ## define AI, ML, DL, NN
@@ -25,11 +27,52 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Topics
 
 - AI Ethics
-- Model Governance
 - Embedding
 - Speech to Text (language agnostic)
 - Object Recognition (eye tracking)
 - Attention Mapping (Adobe, focus vs periphery)
+- Model Governance
+
 
 ## Embedding
 
+## AI Ethics
+
+## Speech to Text (Deep Speech)
+
+- Mozilla Firefox
+- 10,000 hours required to train the models adequately
+- Iara Health: patient record transcribing
+    + **Webinars?**
+- Common Voice is their tool to crowdsource validation of models
+- Future is to convert to Unicode to cover all languages into one model
+
+## Attention Mapping
+
+## Model Governance
+
+Quant University Data Flow recreated in Lucid
+they developed their own process/tool, QuSandbox
+
+
+## Model Governance Considerations
+
+- Build models for all parts of the DS process
+- Stress & QC test (watch for model decay)
+- Can we file IP/Patent the product or algorithm
+- Package management
+- Hardware needs
+- OECD principles standard on AI for Governance
+
+## 4 V's of Big Data
+
+![](4-Vs-of-big-data.jpg)
+
+
+## Challenges
+
+## Suggestions
+
+- Keep Human-in-the-Loop
+- Focus on "better" not cheaper
+- Need to go live fast, then learn from it
