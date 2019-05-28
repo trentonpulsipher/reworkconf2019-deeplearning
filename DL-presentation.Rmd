@@ -2,27 +2,39 @@
 title: "AI - Deep Learning Conference"
 author: "Trenton Pulsipher"
 date: "5/24/2019"
-output: ioslides_presentation
+output: 
+  revealjs::revealjs_presentation:
+    theme: simple
+    highlight: kate
+    reveal_options:
+      slideNumber: true
+      previewLinks: true
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## attention grabber
+# Intro {data-background="HS1slidetemplate2.png"}
 
-maybe a comic?
+## What do you know of deep learning? {data-background="HS1slidetemplate.png"}
 
-## What do you know of deep learning?
+![](deep_learning_pit.png)
 
-insert graphic
+## What is AI? ML? DL? NN? {data-background="HS1slidetemplate.png"}
 
-
-## Define AI, ML, DL, NN
-
+![](AI_algorithms.png)
 
 
-## Speakers
+## What is AI? ML? DL? NN? {data-background="HS1slidetemplate.png" fig.height="100%"}
+
+![](machine_learning_algorithms.jpg)
+
+
+## Define AI, ML, DL, NN {data-background="HS1slidetemplate.png"}
+
+
+## Speakers {data-background="HS1slidetemplate.png"}
 
 - Salesforce
 - Twitter
@@ -31,10 +43,10 @@ insert graphic
 - Fidelity
 - GE
 - Research hospitals
-- ...
+- CVS / Aetna
 
 
-## Topics
+## Topics {data-background="HS1slidetemplate.png"}
 
 - AI Ethics
 - Embedding
@@ -45,18 +57,19 @@ insert graphic
 - Cautionary Tales
 
 
-## Outline
+## Outline {data-background="HS1slidetemplate.png"}
 
 1. Immediate Opportunities
 2. Governance
-3. Coming Opportunities
-4. Fun / Cool Stuff
+3. Coming Opportunities & Cool Stuff
 
 
+# Immediate Opportunities {data-background="HS1slidetemplate2.png"}
 
-## Embedding
+## Embedding {data-background="HS1slidetemplate.png"}
 
-> Definition: Convert Discrete to Continuous
+> Definition: 
+> Convert Discrete to Continuous
 
 Uses include:
 
@@ -66,7 +79,7 @@ Uses include:
 - Transfer learning
 
 
-## Speech to Text (Deep Speech)
+## Speech to Text (Deep Speech) {data-background="HS1slidetemplate.png"}
 
 - Mozilla Firefox
 - 10,000 hours required to train the models adequately
@@ -75,7 +88,7 @@ Uses include:
 - Common Voice is their tool to crowdsource validation of models
 - Future is to convert to Unicode to cover all languages into one model
 
-## BOLA.AI
+## BOLA.AI {data-background="HS1slidetemplate.png"}
 
 - Voice charting assistant (think periocharts)
 - Boston based four person team
@@ -83,7 +96,9 @@ Uses include:
 - Could do native integration in EHR
 
 
-## AI Ethics in Product Development
+# Governance {data-background="HS1slidetemplate2.png"}
+
+## AI Ethics in Product Development {data-background="HS1slidetemplate.png"}
 
 Must maintain ethics in
 
@@ -98,31 +113,20 @@ Ethics are defined as:
 - Ensure social justice
 
 
-## AI Ethics Concerns in Dentistry
+## AI Ethics Concerns in Dentistry {data-background="HS1slidetemplate.png"}
 
 - Who's most likely to pay?
 - Marketing to potential patients?
 - Zip code / Income / Ethnicity
 
 
-## AI for Creativity
-
-Human visual system / object recognition shows that we see detail in the middle but not on the periphery.
-**See if I can find the Adobe example Zoya ?**
-Eye tracking is expensive and difficult. However, Adobe is building a real-time reflow design based on deep learning results. Meaning you change A/B testing to real-time design optimization, or attention mapping.
-
-## Attention Mapping
-
-Not just A/B testing - **any graphic design**
-
-
-## Model Governance
+## Model Governance {data-background="HS1slidetemplate.png"}
 
 Quant University Data Flow recreated in Lucid
 they developed their own process/tool, QuSandbox
 
 
-## Model Governance Considerations
+## Model Governance Considerations {data-background="HS1slidetemplate.png"}
 
 - Build models for all parts of the DS process
 - Stress & QC test (watch for model decay)
@@ -131,20 +135,34 @@ they developed their own process/tool, QuSandbox
 - Hardware needs
 - OECD principles standard on AI for Governance
 
-## 4 V's of Big Data
+## 4 V's of Big Data {data-background="HS1slidetemplate.png"}
 
-![](4-Vs-of-big-data.jpg)
+![](4-Vs-of-big-data.jpg){}
+
+# Coming Opportunities & Cool Stuff {data-background="HS1slidetemplate2.png"}
+
+## AI for Creativity {data-background="HS1slidetemplate.png"}
+
+Human visual system / object recognition shows that we see detail in the middle but not on the periphery.
+**See if I can find the Adobe example Zoya ?**
+Eye tracking is expensive and difficult. However, Adobe is building a real-time reflow design based on deep learning results. Meaning you change A/B testing to real-time design optimization, or attention mapping.
+
+## Attention Mapping {data-background="HS1slidetemplate.png"}
+
+Not just A/B testing - **any graphic design**
+
+[Zoya](web.mit.edu/zoya/www/docs/UIST2017-importance-reducedfilesize.pdf)
 
 
-## Challenges
+
+## Challenges {data-background="HS1slidetemplate.png"}
 
 - Calculating costs for being wrong
     + acting on false positives
     + not acting on false negatives
 
 
-
-## Suggestions
+## Suggestions {data-background="HS1slidetemplate.png"}
 
 - Keep Human-in-the-Loop
 - Focus on "better" not cheaper
