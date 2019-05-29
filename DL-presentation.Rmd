@@ -34,6 +34,19 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Define AI, ML, DL, NN {data-background="HS1slidetemplate.png" data-background-size="94%"}
 
+<small> AI is most often just a term for business people to describe Machine Learning (ML), which is a set of algorithms that allow statistical/mathematical models to "learn" and thus predict with greater accuracy than standard statistical models. That improved accuracy often comes at the expense of model interpretability or inference. In general, ML algorithms aren't new, however, computing resource improvements and data size increases have enabled more prolific use of ML in the past five years. </small>
+
+## Define Data Science {data-background="HS1slidetemplate.png" data-background-size="94%"}
+
+ 
+<small> Data Science is the confluence of statistical design, computer science, machine learning modeling, and the domain knowledge of researchers/experts. Data science teams often include a blend of data engineers, technical business analysts and project managers, statisticians, business intelligence (BI) developers, front-end and/or back-end developers (DevOps), and machine learning researchers. Most data scientists are either generalist data scientists, data engineers, or machine learning researchers, though this distinction is only a year or two old. I consider myself a generalist.
+
+Test your own data science-yness using Mango Solutions' questionnaire:
+
+[https://www.mango-solutions.com/radar/](https://www.mango-solutions.com/radar/). 
+
+My results look like this [https://www.mango-solutions.com/radar/?fs=true&r=6.0,4.7,5.7,4.1,3.0,4.7](https://www.mango-solutions.com/radar/?fs=true&r=6.0,4.7,5.7,4.1,3.0,4.7).</small>
+
 
 ## Speakers {data-background="HS1slidetemplate.png" data-background-size="94%"}
 
