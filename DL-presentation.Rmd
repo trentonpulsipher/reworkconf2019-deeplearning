@@ -9,32 +9,33 @@ output:
     reveal_options:
       slideNumber: true
       previewLinks: true
+      progress: true
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# Intro {data-background="HS1slidetemplate2.png"}
+# Intro {data-background="HS1slidetemplate2.png" data-background-size="94%"}
 
-## What do you know of deep learning? {data-background="HS1slidetemplate.png"}
+## What do you know of deep learning? {data-background="HS1slidetemplate.png" data-background-size="94%"}
 
-![](deep_learning_pit.png)
+![](deep_learning_pit.png){width=500, height=400}
 
-## What is AI? ML? DL? NN? {data-background="HS1slidetemplate.png"}
+## What is AI? ML? DL? NN? {data-background="HS1slidetemplate.png" data-background-size="94%"}
 
-![](AI_algorithms.png)
-
-
-## What is AI? ML? DL? NN? {data-background="HS1slidetemplate.png" fig.height="100%"}
-
-![](machine_learning_algorithms.jpg)
+![](AI_algorithms.png){height=400}
 
 
-## Define AI, ML, DL, NN {data-background="HS1slidetemplate.png"}
+## What is AI? ML? DL? NN? {data-background="HS1slidetemplate.png" data-background-size="94%"}
+
+![](machine_learning_algorithms.jpg){height=600}
 
 
-## Speakers {data-background="HS1slidetemplate.png"}
+## Define AI, ML, DL, NN {data-background="HS1slidetemplate.png" data-background-size="94%"}
+
+
+## Speakers {data-background="HS1slidetemplate.png" data-background-size="94%"}
 
 - Salesforce
 - Twitter
@@ -46,7 +47,7 @@ knitr::opts_chunk$set(echo = FALSE)
 - CVS / Aetna
 
 
-## Topics {data-background="HS1slidetemplate.png"}
+## Topics {data-background="HS1slidetemplate.png" data-background-size="94%"}
 
 - AI Ethics
 - Embedding
@@ -57,16 +58,16 @@ knitr::opts_chunk$set(echo = FALSE)
 - Cautionary Tales
 
 
-## Outline {data-background="HS1slidetemplate.png"}
+## Outline {data-background="HS1slidetemplate.png" data-background-size="94%"}
 
 1. Immediate Opportunities
 2. Governance
 3. Coming Opportunities & Cool Stuff
 
 
-# Immediate Opportunities {data-background="HS1slidetemplate2.png"}
+# Immediate Opportunities {data-background="HS1slidetemplate2.png" data-background-size="94%"}
 
-## Embedding {data-background="HS1slidetemplate.png"}
+## Embedding {data-background="HS1slidetemplate.png" data-background-size="94%"}
 
 > Definition: 
 > Convert Discrete to Continuous
@@ -79,7 +80,7 @@ Uses include:
 - Transfer learning
 
 
-## Speech to Text (Deep Speech) {data-background="HS1slidetemplate.png"}
+## Speech to Text (Deep Speech) {data-background="HS1slidetemplate.png" data-background-size="94%"}
 
 - Mozilla Firefox
 - 10,000 hours required to train the models adequately
@@ -88,17 +89,17 @@ Uses include:
 - Common Voice is their tool to crowdsource validation of models
 - Future is to convert to Unicode to cover all languages into one model
 
-## BOLA.AI {data-background="HS1slidetemplate.png"}
+## BOLA.AI {data-background="HS1slidetemplate.png" data-background-size="94%"}
 
 - Voice charting assistant (think periocharts)
-- Boston based four person team
-- Contracts alreay with Eaglesoft, Curve, and 2nd largest DSO.
-- Could do native integration in EHR
+- Boston based four person startup
+- Contracts already with Eaglesoft, Curve, and 2nd largest DSO.
+- Could do native integration in Dentrix for EHR
 
 
-# Governance {data-background="HS1slidetemplate2.png"}
+# Governance {data-background="HS1slidetemplate2.png" data-background-size="94%"}
 
-## AI Ethics in Product Development {data-background="HS1slidetemplate.png"}
+## AI Ethics in Product Development {data-background="HS1slidetemplate.png" data-background-size="94%"}
 
 Must maintain ethics in
 
@@ -113,20 +114,20 @@ Ethics are defined as:
 - Ensure social justice
 
 
-## AI Ethics Concerns in Dentistry {data-background="HS1slidetemplate.png"}
+## AI Ethics Concerns in Dentistry {data-background="HS1slidetemplate.png" data-background-size="94%"}
 
 - Who's most likely to pay?
 - Marketing to potential patients?
 - Zip code / Income / Ethnicity
 
 
-## Model Governance {data-background="HS1slidetemplate.png"}
+## Model Governance {data-background="HS1slidetemplate.png" data-background-size="94%"}
 
-Quant University Data Flow recreated in Lucid
-they developed their own process/tool, QuSandbox
+![Quant University Data Flow](quantUniversity_dsflow.jpg)
+<!-- they developed their own process/tool, QuSandbox -->
 
 
-## Model Governance Considerations {data-background="HS1slidetemplate.png"}
+## Model Governance Considerations {data-background="HS1slidetemplate.png" data-background-size="94%"}
 
 - Build models for all parts of the DS process
 - Stress & QC test (watch for model decay)
@@ -135,19 +136,20 @@ they developed their own process/tool, QuSandbox
 - Hardware needs
 - OECD principles standard on AI for Governance
 
-## 4 V's of Big Data {data-background="HS1slidetemplate.png"}
+## 4 V's of Big Data {data-background="HS1slidetemplate.png" data-background-size="94%"}
 
 ![](4-Vs-of-big-data.jpg){}
 
-# Coming Opportunities & Cool Stuff {data-background="HS1slidetemplate2.png"}
+# Coming Opportunities & Cool Stuff {data-background="HS1slidetemplate2.png" data-background-size="94%"}
 
-## AI for Creativity {data-background="HS1slidetemplate.png"}
+## AI for Creativity {data-background="HS1slidetemplate.png" data-background-size="94%"}
 
 Human visual system / object recognition shows that we see detail in the middle but not on the periphery.
 **See if I can find the Adobe example Zoya ?**
 Eye tracking is expensive and difficult. However, Adobe is building a real-time reflow design based on deep learning results. Meaning you change A/B testing to real-time design optimization, or attention mapping.
 
-## Attention Mapping {data-background="HS1slidetemplate.png"}
+
+## Attention Mapping {data-background="HS1slidetemplate.png" data-background-size="94%"}
 
 Not just A/B testing - **any graphic design**
 
@@ -155,14 +157,14 @@ Not just A/B testing - **any graphic design**
 
 
 
-## Challenges {data-background="HS1slidetemplate.png"}
+## Challenges {data-background="HS1slidetemplate.png" data-background-size="94%"}
 
 - Calculating costs for being wrong
     + acting on false positives
     + not acting on false negatives
 
 
-## Suggestions {data-background="HS1slidetemplate.png"}
+## Suggestions {data-background="HS1slidetemplate.png" data-background-size="94%"}
 
 - Keep Human-in-the-Loop
 - Focus on "better" not cheaper
